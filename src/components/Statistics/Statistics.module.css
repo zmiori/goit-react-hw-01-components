@@ -25,6 +25,7 @@
   margin: 0;
   padding: 0;
 
+
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -47,6 +48,6 @@ border: 1px solid rgba(47, 101, 156, 0.2);
 }
 
 .percentage {
-    font-size: 28px;
+    font-size: 24px;
 }
 
