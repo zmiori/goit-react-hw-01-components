@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import s from './Statistics.module.css';
 
 const Statistics = ({ title, stats }) => {
@@ -26,6 +27,11 @@ const Statistics = ({ title, stats }) => {
       </ul>
     </section>
   );
+};
+
+Statistics.propTypes = {
+  stats: PropTypes.arrayOf(PropTypes.object).isRequired,
+  title: PropTypes.string,
 };
 
 function getRandomColor() {

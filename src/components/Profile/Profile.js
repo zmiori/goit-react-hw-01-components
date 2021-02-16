@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 import s from './Profile.module.css';
 
 const Profile = ({ name, tag, location, avatar, stats }) => {
@@ -32,6 +34,14 @@ const Profile = ({ name, tag, location, avatar, stats }) => {
   );
 };
 
+Profile.propTypes = {
+  name: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  stats: PropTypes.object,
+};
+
 Profile.defaultProps = {
   name: 'Anonymous',
   stats: {
@@ -39,7 +49,8 @@ Profile.defaultProps = {
     views: '-',
     likes: '-',
   },
-  avatar: '"https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg"',
+  avatar:
+    'https://nop4you.com/Themes/QuickTemplate/Content/images/thumbs/no-avatar.png',
 };
 
 export default Profile;

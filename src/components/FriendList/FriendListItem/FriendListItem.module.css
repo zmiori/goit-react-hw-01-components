@@ -1,0 +1,51 @@
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    margin-top: 10px;
+    padding: 10px;
+
+    background-color: #fff;
+
+    -webkit-box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.13);
+-moz-box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.13);
+box-shadow: 3px 4px 8px 0px rgba(34, 60, 80, 0.13);
+
+}
+
+
+.status {
+    width: 20px;
+    height:  20px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+
+.online {
+    background-color: rgb(35, 214, 80);
+}
+
+.offline {
+  background-color: rgb(198, 51, 46);
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+
+    border-radius: 5px;
+}
+
+
+.name {
+    margin: 0;
+    margin-left: 30px;
+
+    font-size: 24px;
+color: black;
+font-weight: 700;
+
+
+}
