@@ -9,7 +9,7 @@ const FriendList = ({ friends }) => {
       {friends.map(f => {
         return (
           <FriendListItem
-            // avatar={f.avatar}
+            avatar={f.avatar}
             name={f.name}
             isOnline={f.isOnline}
           />
